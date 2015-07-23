@@ -101,7 +101,7 @@ div .sitemap ul {
 
 main .container .content {
 	border-radius: 0 5px 5px 5px;
-	margin-bottom: 10px;
+	margin: 10px;
 }
 
 .content li {
@@ -111,12 +111,11 @@ main .container .content {
 	margin: 5px;
 	padding-left: 10px;
 	border-radius: 5px;
-	font-size: 100%;
 }
 
 .input {
 	margin: 10px;
-	border-radius: 5px;
+	border-radius: 10px;
 	width: 300px;
 	height: 20px;
 }
@@ -131,14 +130,14 @@ main .container .content {
 }
 
 .delete-icon {
-	display: none;
+	display: block;
 	cursor: pointer;
 	width: 15px;
 	line-height: 15px;
 	background: #f9e933;
 	position: absolute;
-	top: 5px;
-	right: 5px;
+	top: 7px;
+	right: 7px;
 	border-radius: 5px;
 	text-align: center;
 	vertical-align: middle;
