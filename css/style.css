@@ -1,0 +1,106 @@
+header, main, footer {
+	min-width: 855px;
+}
+
+main {
+	height: 450px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+body {
+	background: #f9e933;
+}
+
+header {
+	height: 80px;
+}
+
+header h1 {
+	cursor: pointer;
+}
+
+header, main {
+	background: white;
+	overflow: auto;
+	border-bottom: 1px solid #ccc;
+}
+
+header h1, 
+main .container .info,
+footer .container .contact {
+	float: left;
+	width: 570px;
+}
+
+header h1 {
+	margin-bottom: 0;
+	margin-left: 10px;
+	width: 560px;
+	font-style: italic;
+}
+
+header nav,
+footer .container .sitemap {
+	float: right;
+	width: 285px;
+}
+
+header nav{
+	margin-top: 35px;
+	margin-left: 10px;
+	width: 275px;
+}
+
+body {
+	font-family: 'Droid Sans', Sans-serif;
+	font-size: 100%;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Ubuntu', Sans-serif;
+}
+
+.info {
+	margin: 80px 10px auto 10px;
+}
+
+div .sitemap ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sitemap li {
+	margin-right: 10px;
+}
+
+.tabs a span {
+ display: inline-block;
+ border-radius: 5px 5px 0 0;
+ width: 100px;
+ margin-right: 10px;
+ margin-top: 10px;
+ text-align: center;
+ background: #ddd;
+ padding: 5px;
+}
+
+.tabs a span.active,
+.content {
+ background: #eee;
+}
+
+.content ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+
+main .container .content {
+	border-radius: 0 5px 5px 5px;
+	margin-bottom: 10px;
+}
+
