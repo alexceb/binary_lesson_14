@@ -105,7 +105,6 @@ main .container .content {
 }
 
 .content li {
-	position: relative;
 	background: white;
 	line-height: 30px;
 	margin: 5px;
