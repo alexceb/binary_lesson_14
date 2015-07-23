@@ -111,7 +111,6 @@ main .container .content {
 	margin: 5px;
 	padding-left: 10px;
 	border-radius: 5px;
-	font-family: 'Ubuntu', Sans-serif;
 	font-size: 100%;
 }
 
@@ -134,8 +133,8 @@ main .container .content {
 .delete-icon {
 	display: none;
 	cursor: pointer;
-	width: 20px;
-	line-height: 20px;
+	width: 15px;
+	line-height: 15px;
 	background: #f9e933;
 	position: absolute;
 	top: 5px;
