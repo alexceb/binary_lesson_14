@@ -104,3 +104,43 @@ main .container .content {
 	margin-bottom: 10px;
 }
 
+.content li {
+	position: relative;
+	background: white;
+	line-height: 30px;
+	margin: 5px;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-family: 'Ubuntu', Sans-serif;
+	font-size: 100%;
+}
+
+.input {
+	margin: 10px;
+	border-radius: 5px;
+	width: 300px;
+	height: 20px;
+}
+
+.input-button {
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 	16px;
+	background: #f9e933;
+	width: 	25px;
+	height: 25px; 
+}
+
+.delete-icon {
+	display: none;
+	cursor: pointer;
+	width: 20px;
+	line-height: 20px;
+	background: #f9e933;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
